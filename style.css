@@ -1,0 +1,332 @@
+
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="style.css">
+
+.cubo{
+    background-attachment: fixed;
+            	 background-size: cover;
+   
+    
+position: relative;
+width: 150px;
+height: 150px;
+transform-style: preserve-3d;
+transform: rotateY(deg) rotateX(-38deg);
+transition: 5ms ease-in;
+}
+.cubo div {
+    position: relative;
+    width: 150px;
+    height: 150px;
+background: grey;
+}
+
+
+
+      
+#envoltura{
+    width: 1100px;
+    height: px;
+    perspective: 2000px;
+    margin: 60px 10px 0px 60px;
+    padding: 10px 10px 10px 10px; 
+}
+.cubo{
+    width: 150px;
+    height: 150px;
+    transform: rotateY(35deg) rotateX(-35deg);
+    transform: rotateY(155deg) rotateX(155deg);
+    transition: 1s ease-in-out ; 
+position: relative;
+transform-style: preserve-3d;
+animation: linearGradient 2s linear infinite ;
+
+}
+
+@keyframes linearGradient{
+    from{
+       transform:rotateY(0deg);
+          }
+    to {
+            transform:rotateY(ease) ;
+          }
+          
+          
+}
+transform: rotateY(35deg) rotateX(-38deg);
+
+
+.cubo:hover{
+    
+    animation:  infinite linear;
+}
+.cubo div {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+background: grey;
+}
+.cubo div:nth-child(1){
+    transform:translateZ(75px);
+    background: url("css.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cubo div:nth-child(2){
+    transform: rotateX(90deg) translateZ(75px);
+    background-image: url(jav.jpg);
+    object-fit:fill;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.cubo div:nth-child(3){
+    transform: rotateY(-90deg) translateZ(75px);
+    background-image:url(html.jpg) ;
+    width:100%;
+     height:100%;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+    
+    background-repeat: no-repeat;
+}
+.cubo div:nth-child(4){
+    transform: rotateY(90deg) translateZ(75px);
+    background-image:url(css.jpg) ;
+    object-fit:fill;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.cubo div:nth-child(5){
+    transform: rotateX(-90deg) translateZ(75px);
+    background:url(angie.png) ;
+    object-fit:fill;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.cubo div:nth-child(6){
+    transform: rotateX(-90deg) translateZ(75px);
+    background-image: url(ilu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenedor {
+	        width: 100%;
+	        max-width: 100%;
+        	margin: 0% auto;
+        	border:2px solid:grey;
+            border-radius: 1em;
+	        }
+
+	.float {
+	       position:fixed;
+	       width:60px;
+           height:60px;
+	       bottom:40px;
+           right:40px;
+           background-color:#25d366;
+	       color:#FFF;
+	       border-radius:50px;
+	       text-align:center;
+           font-size:30px;
+	       box-shadow: 5px 8px 12px #999;
+           z-index:100
+           }
+.float:hover {
+	       text-decoration: none;
+	       color: green;
+           background-color:#fff
+           }
+
+          .my-float{
+	      margin-top:16px;
+          }
+          .logo img{
+	      width: "100px"
+	      height: "100px"
+          }
+    header{
+	     background-image:url("angie.png"); color: red ;
+            	 background-position: fixed;
+            	 background-repeat: no-repeat;
+            	 background-attachment: fixed;
+            	 background-size: cover;
+                 box-shadow:
+            	 width:100%;
+            	 height:100%;
+            	 line-height: 70%;
+            	 display:inline-block;
+	             box-sizing: border-box;
+                 text-align: center;
+                 border-radius: 1em;
+                 box-shadow: 0px 4px 8px black,0 6px 20px gold;
+                 opacity: ;
+                 overflow: auto;
+                 margin: 0px px 0px 0px center;
+                 
+                 
+                 border-color: blue;
+                 text-shadow: 5px 5px 5px gold;
+                 border:10px solid:blue;
+          }
+.titulo-h2{
+	       background: linear-gradient(5deg, yellow, white); color: green;
+	            box-sizing: border-box;
+                text-align: center;
+                border-radius: 0em;
+                box-shadow: 0px 4px 8px black,0 6px 20px gold;
+                margin: 0%;
+                width:100%;
+                
+                opacity: ;
+                overflow: auto;
+                margin: auto center;
+                border-color: blue;
+                text-shadow:  5px 5px 5px gold;
+          }
+       h1{
+          font-family: verdana;
+                font-size:4rem;
+            	background:background-image:url("angie.png"); color: white;
+                background-position: absolute;
+            	background-repeat: no-repeat;
+            	background-attachment: fixed;
+            	background-size: cover;
+            	width:100%;
+            	height: 5%;
+            	line-height: 5px;
+                display:inline-block;
+	            box-sizing: border-box;
+                text-align: center;
+                border-radius: 1em;
+                box-shadow:0px 4px 8px black,0 6px 20px gold;
+                margin: auto center;
+                border-color: blue;
+                text-shadow: 5px 5px 5px gold;
+                
+                width:100%;
+               
+          }
+       h2 {
+          background:grey ; color: blue ;
+          margin: auto center;
+          font-family: helvetica; sans-serif;
+          margin: 0%;
+          width:100%;
+         
+          }            
+        h3{
+            background-image:url("angie.png"); color: white ;
+            	 font-family: verdana;
+                 font-size: 2rem;
+            	 background-position: absolute;
+            	 background-repeat: no-repeat;
+            	 background-attachment: fixed;
+            	 background-size: cover;
+
+            	 width:100%;
+            	 height:5%;
+            	 line-height: 70%;
+            	 display:inline-block;
+	             box-sizing: border-box;
+                 text-align: center;
+                 border-radius: 1em;
+                 opacity:;
+                 overflow:;
+                 margin: auto center;
+                 border-color: blue;
+                 text-shadow: 5px 5px 5px gold;
+                 border:10px solid:blue;
+         }
+         body{
+            margin: 0%;
+            width:100%;
+            height:100%;
+         }
+  .fondo {
+	      background: linear-gradient(5deg,red,blue);
+	             margin: 0%;
+                 width:100%;
+            	 height:100%;
+         }
+          /*background: linear-gradient(5deg,blue,white,red)*/
+   .juan {
+	     background-color: red opacity: ;
+	     display:inline-block;
+	     padding: 100px;
+	     box-sizing: border-box;
+	     text-align: center;
+         }
+ bottom {
+ 	     display: inline;
+		 background: red; color: black;
+         margin: 0%;
+         width:100%;
+         
+		 }
+	nav{
+	    background: linear-gradient(5deg,red,blue,white);
+	     border-radius: 1em;
+         margin: 0%;
+         width:100%;
+         
+        }
+
+   .h1 {
+	
+
+       }
+
+.container{
+	
+	       }
+                
+
+.article{}
+
+}
+
+
+.buton {
+        border-radius: 1em;
+        box-shadow: 0px 4px 8px black,0 6px 20px gold
+        5px 10px 15px  gold;
+        opacity: ;
+        overflow: auto;
+        margin: auto center;
+        border-color: blue;
+        text-shadow: 1px 1px 5px black,0 0 22 gold
+         5px 5px 5px gold;
+        border:10px solid:blue;
+	    }
+        height: auto;
+	             width: auto;
+  aside{
+	     background: linear-gradient(5deg,green, white);;
+	             margin: auto center;
+	             
+	             min-height: auto;
+	             box-sizing: border-box;
+                 text-align: center;
+                 border-radius: 1em;
+                 box-shadow: 0px 4px 8px black,0 6px 20px gold;
+                 5px 10px 15px 3px gold;
+                 opacity: ;
+                 overflow: auto;
+                 margin: 30px;
+                 border-color: blue;
+                 text-shadow: 5px 5px 5px gold;
+                 margin: 0%;
+                 width:100%;
+                
+        }
+  footer{
+	    background: lightgrey;
+	    margin: auto center;
+        margin: 0%;
+        width:100%;
+        
+	    }
+	  
